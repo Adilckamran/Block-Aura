@@ -7,7 +7,7 @@
     "dev": "vite",
     "generate:pdf": "node scripts/generate-whitepaper-pdf.mjs",
     "verify": "node scripts/verify-data.mjs",
-    "build": "node scripts/generate-whitepaper-pdf.mjs && node scripts/verify-data.mjs && tsc && vite build",
+    "build": "node scripts/generate-whitepaper-pdf.mjs && node scripts/verify-data.mjs && npx tsc && npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
